@@ -1,4 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap");
 *{
 	margin: 0;
 	padding: 0;
+	overflow:hidden;
+	font-family: 'Noto Sans KR', sans-serif;
+    
 }
+/*link tag color added*/
+a{
+    color: white;  
+}
+/*ended link tag color added*/
+
+
+
+/*logo title*/
+.logotitle{
+    font-weight: bolder;
+    font-size: 30px;
+
+    font-family: 'Encode Sans SC', sans-serif;
+ }
+/*logo title*/
+
+
+ /*<Search bar>*/
+.card {
+    background-color: #007bff;
+    width: 30vw;
+    border: none;
+
+    padding-left: 50%;
+}
+input.form-control:focus {
+    box-shadow: none;
+    border: none;
+    color: rgb(121, 121, 121);
+    letter-spacing: 0.5px;
+    
+}
+.btn-primary {
+    color: #007bff;
+    background-color: #ffffff !important;
+    border: none;
+}
+.btn-primary:hover {
+    color: rgb(0, 0, 0);
+}
+.btn-primary:focus {
+    box-shadow: none;
+    color: rgb(0, 0, 0);
+   
+}
+.header {
+    text-align: center;
+}
+.form-control {
+    border: none;
+}
+
+/*</Search bar>*/
+
+
+
+/*phone size changes*/
+
+@media screen and (max-width: 767px){
+    .card{
+        width: 100%;
+
+    }
+    .cart-btn-phn-padding{
+        padding-left: 10px;
+    }
+
+}
+
+/*</phone size changes>*/
+
+
+/*hover color for nav button*/
+.sign-btn-clr:hover {
+    color: #007bff;
+}
+.nav-link-clr:hover {
+    color: #acac9b;
+}
+
+/*</hover color for nav button>*/
+
+
+
+
+/*navbar hamburge new button */
+.navbar-toggler-icon {
+    background-image: url('https://mdbcdn.b-cdn.net/img/svg/hamburger2.svg?color=fff');
+    }
+/*</navbar hamburge new button>*/

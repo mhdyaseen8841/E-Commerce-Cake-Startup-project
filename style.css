@@ -74,9 +74,15 @@ input.form-control:focus {
     .cart-btn-phn-padding{
         padding-left: 10px;
     }
-
+    
 }
 
+@media screen and (max-width: 576px){
+    /*Highlights phone mode icons not align so  used this padding*/
+    .highlights-allpadding{
+    padding-left: 15%;
+    }
+}
 /*</phone size changes>*/
 
 
@@ -98,4 +104,22 @@ input.form-control:focus {
     background-image: url('https://mdbcdn.b-cdn.net/img/svg/hamburger2.svg?color=fff');
     }
 /*</navbar hamburge new button>*/
+
+
+/*our highlights-row css */
+.hightlights-row{
+    background-color: white;
+}
+.highlight-icon{
+    color: #007bff;
+    
+    
+}
+pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre-wrap;
+    margin: 1em 0em;
+  }
+/*our highlights-row css */
 

@@ -61,31 +61,10 @@ input.form-control:focus {
 
 /*</Search bar>*/
 
+.highlight-captions{
+    padding-left: 30%;
 
-
-/*phone size changes*/
-
-@media screen and (max-width: 767px){
-    .card{
-        width: 100%;
-
-    }
-    .cart-btn-phn-padding{
-        padding-left: 10px;
-    }
-    
 }
-
-@media screen and (max-width: 576px){
-    /*Highlights phone mode icons not align so  used this padding*/
-    .highlights-allpadding{
-    padding-left: 15%;
-    }
-    
-    
-}
-/*</phone size changes>*/
-
 
 /*hover color for nav button*/
 .sign-btn-clr:hover {
@@ -122,5 +101,41 @@ pre {
     white-space: pre-wrap;
     margin: 1em 0em;
   }
+ 
+
 /*our highlights-row css */
+
+
+
+
+
+
+/*phone size changes*/
+
+@media screen and (max-width: 767px){
+    .card{
+        width: 100%;
+
+    }
+    .cart-btn-phn-padding{
+        padding-left: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 575px){
+    /*Highlights phone mode icons not align so  used this padding*/
+    .highlights-allpadding{
+    padding-left: 20%;
+}
+   
+.highlight-captions{
+    padding-left: 20%;
+
+}
+
+    
+}
+/*</phone size changes>*/
+
 

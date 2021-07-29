@@ -103,8 +103,20 @@ pre {
   }
  
 
-/*our highlights-row css */
+/*</our highlights-row css>*/
 
+
+
+/*Ad-banner css*/
+
+.ad-image{
+    width: 100%; 
+}
+.ad-image-morewidth{
+    width: 100%; 
+}
+
+/*</Ad-banner css>*/
 
 
 
@@ -133,9 +145,14 @@ pre {
     padding-left: 20%;
 
 }
-
+.ad-image{
+       
+    width: 50%;
     
 }
+
+}
+
 /*</phone size changes>*/
 
 

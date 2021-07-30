@@ -106,6 +106,28 @@ pre {
 /*our highlights-row css */
 
 
+/* Gap b/w All one DIV to another */
+
+.div-gap{
+    padding-top: 20px;   
+
+}
+
+/* Gap b/w All one DIV to another */
+
+
+/*heading-underline*/
+
+.heading-underline{
+    padding: 1px;
+    background-color: rgba(235, 235, 235, 0.849);
+    border-radius: 50%;
+    
+}
+
+/*</heading-underline>/*/
+
+
 
 
 

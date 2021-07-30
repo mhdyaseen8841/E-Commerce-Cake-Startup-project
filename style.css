@@ -7,7 +7,7 @@
     
 }
 /*link tag color added*/
-a{
+.nav-text{
     color: white;  
 }
 /*ended link tag color added*/
@@ -103,8 +103,20 @@ pre {
   }
  
 
-/*our highlights-row css */
+/*</our highlights-row css>*/
 
+
+
+/*Ad-banner css*/
+
+.ad-image{
+    width: 100%; 
+}
+.ad-image-morewidth{
+    width: 100%; 
+}
+
+/*</Ad-banner css>*/
 
 /* Gap b/w All one DIV to another */
 
@@ -155,9 +167,19 @@ pre {
     padding-left: 20%;
 
 }
-
+.ad-image{
+       
+    width: 50%;
     
 }
+
+}
+
 /*</phone size changes>*/
 
 
+
+
+.socialmedia-icons{
+    color: white;
+}
